@@ -1,0 +1,11 @@
+pypw
+----
+
+Description:
+Python-based password generator
+
+Configuration:
+config/
+
+Wordlist:
+Uses system wordlist by default
