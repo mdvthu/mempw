@@ -1,8 +1,8 @@
-pypw
-----
+mempw
+-----
 
 Description:
-Python-based password generator
+Memorable password generator
 
 Configuration:
 config/
