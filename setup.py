@@ -8,13 +8,13 @@ with open('README') as f:
 with open('LICENCE') as f:
     licence = f.read()
 
-setup(name='pypw',
+setup(name='mempw',
       version='0.1.0',
-      description='Python-based password generator',
+      description='Python-based memorable password generator',
       long_description=readme,
       author='Mark Thurston',
       author_email='mark@mdvthu.com',
-      url='https://github.com/mdvthu/pypw',
+      url='https://github.com/mdvthu/mempw',
       license=licence,
-      packages=['pypw'],
-      scripts=['scripts/pypw'])
+      packages=['mempw'],
+      scripts=['scripts/mempw'])

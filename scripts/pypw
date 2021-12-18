@@ -1,5 +1,0 @@
-#!/usr/bin/env python3
-
-import pypw
-
-print(pypw.new_password())
