@@ -18,5 +18,5 @@ Edit `config/config.py` to customise.
 Uses system (Linux/Unix) wordlists by default.
 Default search locations are specified in the configuration.
 
-## Wordlist
-Uses system wordlist by default
+## Usage
+`mempw`
