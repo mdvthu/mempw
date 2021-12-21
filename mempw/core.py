@@ -5,10 +5,7 @@ import os
 import random
 import sys
 
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), '../config')))
-
-import config  # noqa: E402
+from . import config
 
 # check that at least one wordlist is accessible
 WORD_LISTS = [fn for fn in config.WORD_LISTS if os.path.isfile(fn)]
