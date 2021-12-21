@@ -4,9 +4,14 @@
 Memorable password generator in Python
 
 ## Installation
+From github:
 ```bash
 git clone https://github.com/mdvthu/mempw
 pip3 install ./mempw
+```
+From pypi:
+```bash
+pip3 install mempw
 ```
 
 ## Configuration
