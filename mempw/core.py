@@ -40,5 +40,7 @@ def process(word):
 words = [process(word) for word in words if process(word) is not None]
 
 
-def new_password():
+def new_password(seed=None):
+    if seed:
+        random.seed(seed)
     return config.SEPARATOR.join(random.choices(words, k=config.N))
