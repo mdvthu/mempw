@@ -6,7 +6,7 @@ with open('LICENCE') as f:
     licence = f.read()
 
 setup(name='mempw',
-      version='0.1.0',
+      version='0.1.2',
       description='Python-based memorable password generator',
       long_description=('Generates pronouncable passwords '
                         'based on system wordlists'),
@@ -15,4 +15,4 @@ setup(name='mempw',
       url='https://github.com/mdvthu/mempw',
       license=licence,
       packages=['mempw'],
-      scripts=['scripts/mempw'])
+      entry_points={'console_scripts': ['mempw=mempw.core:cli']})

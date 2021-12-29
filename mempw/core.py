@@ -44,3 +44,8 @@ def new_password(seed=None):
     if seed:
         random.seed(seed)
     return config.SEPARATOR.join(random.choices(words, k=config.N))
+
+
+def cli():
+    ''' Windows-compatible command line interface '''
+    print(new_password())

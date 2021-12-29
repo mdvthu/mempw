@@ -22,5 +22,5 @@ Uses system (Linux/Unix) wordlists by default.
 Default search locations are specified in the configuration.
 
 ## Usage
-Python package installs a Linux command line interface,
-available through the command `mempw`
+Command line interface, `mempw`, generates a new password using the
+default configuration settings.
