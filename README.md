@@ -3,6 +3,8 @@
 ## Description
 Memorable password generator in Python
 
+[![xkcd "Password Strength" comic](https://imgs.xkcd.com/comics/password_strength.png "https://xkcd.com/936/")](https://xkcd.com/936/)
+
 ## Installation
 Github:
 ```bash
