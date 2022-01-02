@@ -3,11 +3,11 @@ import os
 import appdirs
 
 # How many samples of the word list for the final password?
-N = 3
+N = 4
 # How to join each word
 SEPARATOR = '-'
 # Maximum number of chars. in each word
-MAX_LEN = 7
+MAX_LEN = 10
 # Minimum number of bits of entropy required
 MIN_ENTROPY = 40
 
