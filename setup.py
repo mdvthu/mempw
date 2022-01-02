@@ -4,7 +4,7 @@ with open('LICENCE') as f:
     licence = f.read()
 
 setup(name='mempw',
-      version='0.1.2',
+      version='0.1.3',
       description='Python-based memorable password generator',
       long_description=('Generates pronouncable passwords '
                         'based on system wordlists'),
