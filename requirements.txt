@@ -1,3 +1,5 @@
 nose
 sphinx
 pre-commit
+appdirs
+requests
