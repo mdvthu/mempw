@@ -7,6 +7,7 @@ from .context import mempw  # noqa: F401
 
 class BasicTestSuite(unittest.TestCase):
     """Basic test cases."""
+
     def test_absolute_truth_and_meaning(self):
         assert True
 

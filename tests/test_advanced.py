@@ -7,6 +7,7 @@ from .context import mempw  # noqa: F401
 
 class AdvancedTestSuite(unittest.TestCase):
     """Advanced test cases."""
+
     def test_thoughts(self):
         self.assertIsNone(None)
 
