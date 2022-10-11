@@ -11,5 +11,5 @@ setup(name='mempw',
       license='Apache Licence version 2',
       license_files=('LICENCE'),
       packages=['mempw'],
-      install_requires=['appdirs'],
+      install_requires=['appdirs', 'requests'],
       entry_points={'console_scripts': ['mempw=mempw.core:cli']})
