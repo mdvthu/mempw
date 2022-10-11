@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 '''Python based pronouncable password generator'''
+import logging
+import math
 import random
+import sys
 
 from . import config, wordlist
 
@@ -24,6 +27,10 @@ def process(word):
 words = wordlist.words()
 # pre-process all the loaded words
 words = [process(word) for word in words if process(word) is not None]
+possible_combinations = len(words)**config.N
+if math.log(possible_combinations, 2) < config.MIN_ENTROPY:
+    logging.error("Wordlist length not enough to create desired entropy")
+    sys.exit(1)
 
 
 def new_password(seed=None):
