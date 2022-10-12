@@ -24,7 +24,7 @@ def _create_cache(dir_path=config.CACHE_DIR):
         logging.info("Directory ({}) exists".format(dir_path))
     else:
         logging.info("Directory not found, creating {}".format(dir_path))
-        os.mkdir(dir_path)
+        os.makedirs(dir_path, exist_ok=True)
 
 
 def _download():
