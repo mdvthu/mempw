@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='mempw',
-      version='0.1.5',
+      version='0.1.6',
       description='Python-based memorable password generator',
       long_description=('Generates pronouncable passwords '
                         'based on system wordlists'),
