@@ -5,6 +5,7 @@ setup(name='mempw',
       description='Python-based memorable password generator',
       long_description=('Generates pronouncable passwords '
                         'based on system wordlists'),
+      long_description_content_type='text/x-rst',
       author='Mark Thurston',
       author_email='mark@mdvthu.com',
       url='https://github.com/mdvthu/mempw',
