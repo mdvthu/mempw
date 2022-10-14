@@ -3,6 +3,8 @@
 ## Description
 Memorable password generator in Python
 
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
 [![xkcd "Password Strength" comic](https://imgs.xkcd.com/comics/password_strength.png "https://xkcd.com/936/")](https://xkcd.com/936/)
 
 ## Installation
