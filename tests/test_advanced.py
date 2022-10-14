@@ -2,8 +2,6 @@
 
 import unittest
 
-from .context import mempw  # noqa: F401
-
 
 class AdvancedTestSuite(unittest.TestCase):
     """Advanced test cases."""
