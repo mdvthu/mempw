@@ -24,6 +24,6 @@ repos:
       - id: isort
         name: isort (python)
 -   repo: https://github.com/google/yapf
-    rev: 'v0.40.2'  # Use the sha / tag you want to point at
+    rev: 'v0.43.0'  # Use the sha / tag you want to point at
     hooks:
     -   id: yapf
